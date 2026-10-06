@@ -1,8 +1,8 @@
 // replace.js
 const fs = require('fs');
 
-const inputPath = 'index.html';
-const outputPath = 'output.html';
+const inputPath = 'info/index.html';
+const outputPath = 'info/output.html';
 
 try {
     let html = fs.readFileSync(inputPath, 'utf-8');

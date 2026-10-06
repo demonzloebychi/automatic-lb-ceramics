@@ -1,7 +1,7 @@
 // scan.js
 const fs = require('fs');
 
-const filePath = 'index.html';
+const filePath = 'info/index.html';
 
 try {
     const html = fs.readFileSync(filePath, 'utf-8');

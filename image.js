@@ -1,10 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputHtmlPath = 'index.html';
-const outputHtmlPath = 'output.html';
+const inputHtmlPath = 'info/index.html';
+const outputHtmlPath = 'info/output.html';
 // Укажите путь к папке с картинками (если она в текущей папке: 'images')
-const imagesDir = 'images'; 
+const imagesDir = 'info/images'; 
 
 try {
     let html = fs.readFileSync(inputHtmlPath, 'utf-8');

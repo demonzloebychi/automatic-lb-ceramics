@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const imagesDir = 'images'; // Папка с вашими переименованными картинками
+const imagesDir = 'info/images'; // Папка с вашими переименованными картинками
 
 async function compressImages() {
     try {
